@@ -6,7 +6,7 @@
 /*   By: Francois <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/11 14:28:33 by Francois          #+#    #+#             */
-/*   Updated: 2020/03/18 15:49:29 by frchaban         ###   ########.fr       */
+/*   Updated: 2020/04/27 16:50:26 by frchaban         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,8 @@ static	int	ft_occ(char const *set, char c)
 	}
 	return (0);
 }
-char	*ft_strtrim(char const *s, char const *set)
+
+char		*ft_strtrim(char const *s, char const *set)
 {
 	char			*trim;
 	int				start;

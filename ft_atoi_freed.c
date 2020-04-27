@@ -6,7 +6,7 @@
 /*   By: frchaban <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/16 15:00:34 by frchaban          #+#    #+#             */
-/*   Updated: 2020/04/16 15:00:35 by frchaban         ###   ########.fr       */
+/*   Updated: 2020/04/27 13:59:06 by frchaban         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,6 @@ int	ft_atoi_freed(char *str)
 		return (-1);
 	else if (res < 0 && neg < 0 && res * neg != -2147483648)
 		return (0);
-    free(str);
+	free(str);
 	return (res * neg);
 }

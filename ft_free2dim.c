@@ -6,18 +6,18 @@
 /*   By: frchaban <frchaban@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/16 14:07:36 by frchaban          #+#    #+#             */
-/*   Updated: 2020/04/22 18:18:21 by frchaban         ###   ########.fr       */
+/*   Updated: 2020/04/27 16:46:00 by frchaban         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void    ft_free_2dim(char **data)
+void	ft_free_2dim(char **data)
 {
-    int i;
+	int i;
 
-    i = -1;
-    while (data[++i])
-        free(data[i]);
-    free(data);
+	i = -1;
+	while (data[++i])
+		free(data[i]);
+	free(data);
 }
